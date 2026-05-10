@@ -22,5 +22,8 @@ class Class:
 zainab = Student(name="Zainab Siddiq", age=22, cnic="345768684756")
 sundas = Student(name="Sundas", age=22, cnic="375687487563")
 
-clss = Class(title="Software Engineering", students=[zainab, sundas])
+zainab2 = Student(name="Zainab Siddiq", age=22, cnic="345768684756")
+
+
+clss = Class(title="Software Engineering", students=[zainab, sundas, zainab2])
 print(clss)
